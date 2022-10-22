@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.view-web{ display: block;}
+.view-phone{ display: none;}
+
+
+.important-info p, .important-info h2 { color: whitesmoke;}
+
+.finish-load {
+    animation-delay: 1s;
+    background: whitesmoke;
+}
+
+.load-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-info {
+    background: linear-gradient( 45deg, #685C79 20%,#455C7B, #685C79,#455C7B);
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    padding-bottom: 25px;
+}
+.separator { height: 20px;}
+
+.nav-link {
+    padding: 0 100px 0 0;
+}
+
+.nav-link a, .nav-help a {
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    height: 35px;
+    padding-top: 6px;
+    font-size: 16px;
+}
+
+.nav-link a:hover, .nav-help a:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+.nav-link ul, .nav-help ul {
+    font-size: 0;
+}
+
+.nav-link li, .nav-help li {
+    text-decoration: none;
+    display: inline-block;
+    max-width: 150px;
+    margin: 7px;
+    font-size: 0px;
+}
+
+.nav-link li {width: calc(25% - 14px);}
+.nav-help ul {width: 100%; min-width: 150px;}
+
+.logobeta {
+    margin: 20px 0;
+    width: 100%;
+    height: 150px;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+}
+
+.header-slider {
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 10px;
+    margin: 20px 0;
+    width: 100%;
+    height: 150px;
+    color: whitesmoke;
+}
+
+/**/
+.section-info{
+    min-height: 900px;
+    background-color: whitesmoke;
+} 
+
+.footer-info {height: 200px; font-size: 0;}
+.footer-info-1, .footer-info-3 {
+    background: linear-gradient( 45deg, #685C79 20%,#455C7B, #685C79,#455C7B);
+    border-radius: 25px;
+    margin: 20px;
+    font-size: 12px;
+}
+
+.footer-info-2 { background-color: whitesmoke;}
+
+
+.footer-link a, .footer-link p {
+    padding-top: 1px;
+    padding-bottom: 0;
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footer-link a:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+.footer-icon {font-size: 35px;}
+
+.center-align {text-align: center;}
+.right-align {text-align: right;}
+
+/** Información Aside - Section**/
+.info-aside {
+    min-height: 700px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.25);
+    padding-top: 150px;
+}
+
+/** Navegador Fixed - Sección **/
+
+.nav-fixed {
+    background-color: gray;
+    position: sticky;
+    top:20px;
+    background: whitesmoke;
+    z-index: 2;
+    height: 100px;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.nav-fixed a {
+    display: inline-block;
+    color: black;
+
+}
+
+/** Preguntas Frecuentes - Sección **/
+
+.answer-pqr { padding-left: 20px;}
+
+/** Contacto - Sección**/
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #685C79;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #455C7B;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+@media (max-width: 991px) { 
+.header-info {
+    border-bottom-left-radius: 7%;
+    border-bottom-right-radius: 7%;
+}
+
+.nav-help ul {width: 100%; min-width: 25px;}
+
+.view-web{ display: none;}
+.view-phone{ display: block;}
+.nav-link {padding: 0 ;}
+
+.footer-info-1, .footer-info-3 {
+    background: none;
+    border-radius: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+.footer-info {
+    background: linear-gradient( 45deg, #685C79 20%,#455C7B, #685C79,#455C7B);
+    height: 300px;
+}
+
+}

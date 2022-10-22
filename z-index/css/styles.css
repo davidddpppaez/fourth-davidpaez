@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#A1 {
+    animation-delay: .5s;
+}
+
+#A2 {
+    animation-delay: 1s;
+}
+
+#A3 {
+    animation-delay: 1.5s;
+}
+
+#A4 {
+    animation-delay: 2s;
+}
+
+#A5 {
+    animation-delay: 2.5s;
+}
+
+#A6 {
+    animation-delay: 3s;
+}
+
+#A7 {
+    animation-delay: 3.5s;
+}
+
+#A {
+    animation-delay: 4s;
+}
